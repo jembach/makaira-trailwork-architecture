@@ -10,7 +10,6 @@ export const TextFieldEditValue: React.FC<TextFieldEditValueProps> = React.memo(
     const { config } = useContext(ConfigContext);
     const onChange = useCallback(
       (e: React.ChangeEvent<HTMLTextAreaElement | HTMLInputElement>) => {
-        console.log(config.language, e.target.value);
         store.setValue(config.language, e.target.value);
       },
       [store.setValue, config.language]

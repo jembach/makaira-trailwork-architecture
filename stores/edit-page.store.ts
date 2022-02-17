@@ -44,7 +44,7 @@ export class EditPageStore {
 
   addPattern(patternIdentifier: string) {
     const pattern = this.projectPatternStore.getPattern(patternIdentifier);
-    console.log(pattern);
+
     if (pattern) {
       this.patterns.push(new EditPagePatternStore(pattern));
     }
