@@ -1,0 +1,1920 @@
+[
+  {
+    "id": 24,
+    "identifier": "jan-test",
+    "name": "Jan Test",
+    "fields": [
+      {
+        "uuid": "435135f4-04b9-49a4-b6f2-e4a946015700",
+        "id": "level-0",
+        "label": "Level 0",
+        "description": "",
+        "type": "object",
+        "properties": [
+          {
+            "uuid": "51ced02b-72b2-42ef-804d-bb82508bbd9e",
+            "id": "level-1",
+            "label": "Level 1.1",
+            "type": "object",
+            "properties": [
+              {
+                "uuid": "e74878a5-186d-41d5-8475-0ba4f21f74b1",
+                "id": "input-in-level-1.1",
+                "label": "Input innerhalb Level 1.1",
+                "type": "text",
+                "description": "Text-Input innerhalb Level 1.1"
+              },
+              {
+                "uuid": "9df72743-8ae7-4b57-accc-91c9a6a82d8b",
+                "id": "2-input-in-level-1.1",
+                "label": "2. Input innerhalb Level 1.1",
+                "type": "text",
+                "description": "Zweiter Text-Input innerhalb Level 1.1"
+              }
+            ]
+          },
+          {
+            "uuid": "e242cacc-6759-4acb-a18d-802a412ac256",
+            "id": "level-1.2",
+            "label": "Level 1.2",
+            "type": "text",
+            "description": "Ein Level weiter innen und eins tiefer"
+          }
+        ]
+      },
+      {
+        "uuid": "56bd14db-69c6-4868-8c4c-f95b3d6f25b1",
+        "id": "level-0-input",
+        "label": "Level-0 Input",
+        "type": "text",
+        "description": "Text-Input auf Level 0"
+      },
+      {
+        "uuid": "7599bcff-cf76-402b-a265-0173a4fc782a",
+        "id": "zweiter-level-0-input",
+        "label": "Zweiter Level-0 Input",
+        "type": "text",
+        "description": "Zweiter Text-Input auf Level 0"
+      }
+    ],
+    "user": "bt@marmalade.group",
+    "changed": {
+      "date": "2022-02-11 11:00:42.000000",
+      "timezone_type": 3,
+      "timezone": "Europe\/Berlin"
+    },
+    "icon": "009-pict-tag-heading-text-cta-L"
+  },
+  {
+    "id": 17,
+    "identifier": "all-component-fields",
+    "name": "Alles mit Sauce und Scharf",
+    "fields": [
+      {
+        "uuid": "b43946a3-0bb5-47e0-8765-8be18afb91d3",
+        "id": "manuallist",
+        "label": "Produktliste manuell (Dokument-Typen)",
+        "description": "Manual product \/ manufacturer \/ any document type list",
+        "type": "documents",
+        "documentType": "product"
+      },
+      {
+        "uuid": "9197aa4f-8518-4626-a651-dc5ca121e08e",
+        "id": "text",
+        "label": "Titel (Text)",
+        "type": "text",
+        "description": "I am a text field and that is very awesome. Fill me with content please."
+      },
+      {
+        "uuid": "24cbd609-302c-4f07-898b-b91232175b32",
+        "id": "rich-text",
+        "label": "Beschreibung (Rich Text)",
+        "type": "richtext",
+        "description": "I am a rich text field and that is very awesome. Fill me with content please."
+      },
+      {
+        "uuid": "cf178f3e-abf1-4f42-8b36-943d56707823",
+        "id": "number",
+        "label": "ne Zahl (Number)",
+        "type": "number",
+        "description": "I am a number field and that is very awesome. Fill me with content please."
+      },
+      {
+        "uuid": "fdbb1860-1b0a-43a3-a1fa-15409e036b6a",
+        "id": "upload-image",
+        "label": "Upload Image",
+        "description": "Please upload an image here :)",
+        "type": "file"
+      },
+      {
+        "uuid": "e1ab6f3f-c7f7-4742-a28c-abc553813776",
+        "id": "upload-video",
+        "label": "Upload Video",
+        "description": "Please upload a video here :)",
+        "type": "file"
+      },
+      {
+        "uuid": "2590bfe2-f6bf-4e53-b1e2-0ef61d94599c",
+        "id": "upload-file",
+        "label": "Upload File",
+        "type": "file",
+        "description": "Please upload a file here :)"
+      },
+      {
+        "uuid": "5d07f7d5-11a2-4129-9813-a9b7def0d361",
+        "id": "checkbox",
+        "label": "Check me (Checkbox)",
+        "type": "checkbox",
+        "description": "I am a checkbox field and that is very awesome. Check me please."
+      },
+      {
+        "uuid": "1f386747-3865-408a-97c7-8457b463e398",
+        "id": "",
+        "label": "Select me (Select)",
+        "type": "select",
+        "options": [
+          {
+            "uuid": "904a6b8e-3886-4806-a906-c61a55cec249",
+            "label": "Option 1",
+            "value": "eins"
+          },
+          {
+            "uuid": "2044ebc9-4ed3-4fe0-8c20-2b2bb4da968f",
+            "label": "Option 2",
+            "value": "zwei"
+          }
+        ],
+        "description": "I am a select field and that is very awesome. Select me please."
+      },
+      {
+        "uuid": "1fced1de-26fa-4fe3-8794-821e1858f98b",
+        "id": "multi-select",
+        "label": "Select more! (Multi-Select)",
+        "type": "multiselect",
+        "options": [
+          {
+            "uuid": "859b6d5d-a02b-40a3-a276-670aeacb6cf9",
+            "label": "Option 1",
+            "value": "one"
+          },
+          {
+            "uuid": "2a9af8cb-4f3a-4daf-930b-44ab004b5ff5",
+            "label": "Option 2",
+            "value": "two"
+          },
+          {
+            "uuid": "0c57d9d1-dba1-45c8-86e8-77adf380477e",
+            "label": "Option 3",
+            "value": "three"
+          }
+        ],
+        "description": "I am a multiselect field and that is very awesome. Check me please."
+      },
+      {
+        "uuid": "6fcb4e49-9e73-42d6-ac14-ce1e2c817978",
+        "id": "group",
+        "label": "Gruppe von Feldern (Object)",
+        "type": "object",
+        "properties": [
+          {
+            "uuid": "13413036-2698-41da-904c-a5c01d9f738e",
+            "id": "feld1",
+            "label": "Feld 1 in Gruppe",
+            "type": "text",
+            "description": "I am a field in a group and that is very awesome."
+          },
+          {
+            "uuid": "66aa4b21-8f17-4787-8956-d6dc9de827ac",
+            "id": "feld2",
+            "label": "Feld 2 in Gruppe",
+            "type": "file",
+            "description": "I am a field in a group and that is very awesome."
+          },
+          {
+            "uuid": "90417f9b-c802-48bc-bfa6-885f44cc80e9",
+            "id": "feld3",
+            "label": "feld3 in Gruppe",
+            "type": "richtext",
+            "description": "I am a field in a group and that is very awesome."
+          },
+          {
+            "uuid": "d93b8c70-799a-430b-a995-b190b597d568",
+            "id": "asdf",
+            "label": "asdf",
+            "type": "documents",
+            "documentType": "product"
+          }
+        ],
+        "description": "I am a group. I am grouping things. Cool isn\u0027t it?"
+      },
+      {
+        "uuid": "2340ff92-7e53-458a-940f-b2d07cb8c096",
+        "id": "streamlist",
+        "label": "Produktliste streambasiert (Product-Stream)",
+        "description": "We can select a stream here and even edit it. Awesome.",
+        "type": "stream"
+      },
+      {
+        "uuid": "83677363-6210-4b56-b74a-7116078c48aa",
+        "id": "colorpicker",
+        "label": "We love color (Colorpicker)",
+        "description": "Please select a color. Please. Just do it. I wanna be colorful.\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E",
+        "type": "colorpicker"
+      },
+      {
+        "uuid": "6280d5f9-2b22-4d5b-a740-721232172c72",
+        "id": "hotspot",
+        "label": "Hot hot hot (Hotspot Image)",
+        "type": "hotspot",
+        "properties": [
+          {
+            "uuid": "7e4bacee-2efb-47c2-bf62-621aeed086fc",
+            "id": "spottitle",
+            "label": "Title des Spots",
+            "type": "text",
+            "description": "I am a field in a hotstpot\u0026nbsp;and that is very awesome."
+          }
+        ],
+        "description": "Hot hot hot! Please place your dot. A so colled hot dot for the hot spot."
+      },
+      {
+        "uuid": "56cf81b9-4a2b-4629-a6fc-2412779b6e85",
+        "id": "array-image",
+        "label": "Repeatable aka Array (Image\/File)",
+        "description": "I am an array with images only",
+        "type": "array",
+        "childConfig": {
+          "id": "a851802a-bc80-43e3-8080-88286a4dece5",
+          "type": "file",
+          "properties": []
+        }
+      },
+      {
+        "uuid": "b63e3349-6699-423e-88a0-91cb0d0fd2a0",
+        "id": "array-text",
+        "label": "Repeatable aka Array (Text)",
+        "type": "array",
+        "childConfig": {
+          "id": "89b1d98a-f793-4ff6-8678-c1def5d0f8d0",
+          "type": "text",
+          "properties": [
+            {
+              "uuid": "0658ac03-ea4a-4582-9760-608b992e0b58",
+              "id": "label",
+              "label": "Label",
+              "type": "text"
+            }
+          ]
+        },
+        "description": "I am an array with text only"
+      },
+      {
+        "uuid": "bb610b8b-7e54-4e0e-8796-c671c6868ad6",
+        "id": "array-number",
+        "label": "Repeatable aka Array (Number)",
+        "description": "I am an array with number only",
+        "type": "array",
+        "childConfig": {
+          "id": "e795b023-985d-41bf-8d5e-094572b854e6",
+          "type": "number"
+        }
+      },
+      {
+        "uuid": "28cee532-163d-4372-ac5d-f86ad5637d54",
+        "id": "array-object",
+        "label": "Repeatable aka Array (Object)",
+        "description": "I am an array with objects",
+        "type": "array",
+        "childConfig": {
+          "id": "0c0407a6-38c3-4be1-b91c-52b457b4f68f",
+          "type": "object",
+          "properties": [
+            {
+              "uuid": "344e2fd4-58c2-43f6-bdc4-5f1202108565",
+              "id": "text",
+              "label": "text",
+              "type": "text",
+              "description": "text in object in array"
+            },
+            {
+              "uuid": "97c4600b-2745-49e4-b0b8-d0bfc5ff7383",
+              "id": "image",
+              "label": "image",
+              "type": "file",
+              "description": "image in object in array"
+            }
+          ]
+        }
+      },
+      {
+        "uuid": "7af3294c-aa66-4073-a7e8-aac4b15462a6",
+        "id": "hotspot-complex",
+        "label": "Hotspot complex component",
+        "description": "Description here",
+        "type": "hotspot",
+        "properties": [
+          {
+            "uuid": "7c9eaba3-918a-4955-af03-b018c3716e68",
+            "id": "number",
+            "label": "Label",
+            "type": "number",
+            "description": "Description here"
+          },
+          {
+            "uuid": "c564fd19-e164-4b0e-9e2d-d839980c15d9",
+            "id": "text",
+            "label": "Text",
+            "type": "text",
+            "description": "Description here"
+          }
+        ]
+      }
+    ],
+    "user": "fl@marmalade.group",
+    "changed": {
+      "date": "2022-02-04 10:44:27.000000",
+      "timezone_type": 3,
+      "timezone": "Europe\/Berlin"
+    },
+    "icon": ""
+  },
+  {
+    "id": 23,
+    "identifier": "all-document-types",
+    "name": "All-Document-Types",
+    "fields": [
+      {
+        "uuid": "fa438131-4bf9-47b4-9766-a43707a17c3f",
+        "id": "products",
+        "label": "Products",
+        "type": "documents",
+        "documentType": "product",
+        "description": "Description for selected documents comp."
+      },
+      {
+        "uuid": "9786cbb8-64a7-4854-84d2-8a2eff274e65",
+        "id": "searchable-links",
+        "label": "Searchable Links",
+        "type": "documents",
+        "documentType": "link",
+        "description": "Description for selected documents comp."
+      },
+      {
+        "uuid": "7ca396e7-e080-4af3-8d96-3c5205396b87",
+        "id": "serch-redirects",
+        "label": "Search-Redirects",
+        "type": "documents",
+        "documentType": "searchredirect",
+        "description": "Description for selected documents comp."
+      },
+      {
+        "uuid": "289d3b88-fbb8-42e0-9b45-8b6d604b2297",
+        "id": "landing-pages",
+        "label": "Landing-Pages",
+        "type": "documents",
+        "documentType": "page",
+        "description": "Description for selected documents comp."
+      },
+      {
+        "uuid": "cb875086-2781-4dee-b542-79664cc643b4",
+        "id": "categories",
+        "label": "Categories",
+        "type": "documents",
+        "documentType": "category",
+        "description": "Description for selected documents comp."
+      },
+      {
+        "uuid": "db161659-5a4f-4d0a-979f-ca3e8cf2fbc5",
+        "id": "manufacturer",
+        "label": "Manufacturer",
+        "type": "documents",
+        "documentType": "manufacturer",
+        "description": "Description for selected documents comp."
+      }
+    ],
+    "user": "fl@marmalade.group",
+    "changed": {
+      "date": "2022-01-30 18:23:16.000000",
+      "timezone_type": 3,
+      "timezone": "Europe\/Berlin"
+    },
+    "icon": ""
+  },
+  {
+    "id": 10,
+    "identifier": "discovery-image",
+    "name": "Discovery Image",
+    "fields": [
+      {
+        "uuid": "e8b9bd76-9858-4546-bca9-d07e981dd14f",
+        "id": "discoveryImage",
+        "label": "Discovery Image",
+        "type": "hotspot",
+        "properties": [
+          {
+            "uuid": "9c5e6c9c-7181-42d3-900c-717331e59cd5",
+            "id": "hotspot-select",
+            "label": "Hotspot Select",
+            "type": "select",
+            "options": [
+              {
+                "uuid": "ba62b1ba-ce3c-4e63-9961-a2cc60353fb4",
+                "label": "asdf",
+                "value": "asdf"
+              },
+              {
+                "uuid": "7d93c43a-a6df-428a-a2ff-e6184191cd32",
+                "label": "qwer",
+                "value": "qwer"
+              }
+            ],
+            "defaultValue": "asdf",
+            "description": "my description"
+          },
+          {
+            "uuid": "989f7f26-e53e-413c-bbb6-189802c2a942",
+            "id": "product",
+            "label": "Verkn\u00fcpftes Produkt",
+            "type": "documents",
+            "documentType": "product"
+          }
+        ],
+        "description": "My Discovery Image is amazing!"
+      }
+    ],
+    "user": "fl@marmalade.group",
+    "changed": {
+      "date": "2022-01-30 18:18:04.000000",
+      "timezone_type": 3,
+      "timezone": "Europe\/Berlin"
+    },
+    "icon": ""
+  },
+  {
+    "id": 22,
+    "identifier": "complex-example",
+    "name": "Complex Example",
+    "fields": [
+      {
+        "uuid": "a8f3890d-2f11-4a6a-97bf-5d5abed52f9d",
+        "id": "doc",
+        "label": "Document type",
+        "description": "helooo",
+        "type": "documents",
+        "documentType": "link"
+      },
+      {
+        "uuid": "7ebe0e6e-c12b-4788-b6cd-34e5fa8488ca",
+        "id": "anchorId",
+        "label": "choose an anchor",
+        "type": "text"
+      },
+      {
+        "uuid": "1a9e34eb-e7d5-41bc-b7a5-70153112a7f8",
+        "id": "layout",
+        "label": "choose a layout",
+        "type": "select",
+        "options": [
+          {
+            "uuid": "a5770557-aac6-4df8-b81d-cb555de6591c",
+            "label": "50\/50",
+            "value": "50-50"
+          },
+          {
+            "uuid": "4e092a6b-52fd-4b38-a9fa-d6328823247a",
+            "label": "25\/75",
+            "value": "25-75"
+          },
+          {
+            "uuid": "f6c7d8c2-35da-472b-ad05-fbd30bdb9c5d",
+            "label": "75\/25",
+            "value": "75-25"
+          },
+          {
+            "uuid": "4a1c5494-4a1a-4637-ba30-b261ab9f3501",
+            "label": "33\/66",
+            "value": "33-66"
+          },
+          {
+            "uuid": "bfa2ada0-afdd-4759-ae08-26424fe47a01",
+            "label": "66\/33",
+            "value": "66-33"
+          },
+          {
+            "uuid": "f21585e3-a955-4abc-ad6e-8cacc09fbf86",
+            "label": "100\/0 (Text Only)",
+            "value": "100-text"
+          },
+          {
+            "uuid": "156b2574-4410-4956-aca3-7721f71a1e40",
+            "label": "100\/0 (Image Only)",
+            "value": "100-image"
+          }
+        ]
+      },
+      {
+        "uuid": "1d07cedf-557a-4044-ab1b-ec628dfcae8c",
+        "id": "imagePosition",
+        "label": "choose image position",
+        "type": "select",
+        "options": [
+          {
+            "uuid": "b01fb3fe-f13b-41a9-a402-39970674e95e",
+            "label": "Left",
+            "value": "left"
+          },
+          {
+            "uuid": "7a4f18e8-4bba-4471-bc5e-abb4ae1ecd2d",
+            "label": "Right",
+            "value": "right"
+          }
+        ],
+        "defaultValue": "left"
+      },
+      {
+        "uuid": "c84f80eb-0018-4e06-8529-9b1c564b93a6",
+        "id": "background",
+        "label": "Background Configurations",
+        "type": "object",
+        "properties": [
+          {
+            "uuid": "94d50f28-3f4a-4732-b97b-4cd2b12da3c2",
+            "id": "image",
+            "label": "choose your image",
+            "type": "object",
+            "properties": [
+              {
+                "uuid": "58f46cb1-21a9-4ea3-bec4-711c04ef2c8a",
+                "id": "src",
+                "label": "src",
+                "type": "file"
+              },
+              {
+                "uuid": "bd5a4d59-e3e8-4b36-ade5-8985ec982bc3",
+                "id": "endless",
+                "label": "let the background run endlessly",
+                "type": "checkbox",
+                "defaultValue": true
+              }
+            ]
+          },
+          {
+            "uuid": "b6e94593-dc5b-4d2a-93f7-59a75cfbd9df",
+            "id": "styles",
+            "label": "choose your styles",
+            "type": "object",
+            "properties": [
+              {
+                "uuid": "aa4884f7-de45-468c-843d-361e49b18f91",
+                "id": "fullWidth",
+                "label": "let the background run endlessly",
+                "type": "checkbox"
+              },
+              {
+                "uuid": "b390a94c-d790-48bb-a85a-5a2e508ad22a",
+                "id": "transparency",
+                "label": "set transparency of the background to 20%",
+                "type": "checkbox"
+              },
+              {
+                "uuid": "b52b2845-8996-4b5e-8d64-40672f895844",
+                "id": "colorHex",
+                "label": "choose your color with color hex",
+                "type": "colorpicker"
+              },
+              {
+                "uuid": "9fa84228-018a-4ba8-a240-46c7dafeae2c",
+                "id": "colorVar",
+                "label": "choose your color from category colors",
+                "type": "select",
+                "options": [
+                  {
+                    "uuid": "bac90c6e-ab07-4ebe-bd6f-3a3bbc591c14",
+                    "label": "Wellbeing",
+                    "value": "--cat-wellbeing"
+                  },
+                  {
+                    "uuid": "0aecda76-f937-4488-b2ea-a977150a009d",
+                    "label": "Medical",
+                    "value": "--cat-medical"
+                  },
+                  {
+                    "uuid": "d57700dd-9c3f-4d60-944b-f358ab760863",
+                    "label": "Beauty",
+                    "value": "--cat-beauty"
+                  },
+                  {
+                    "uuid": "8ebb0f51-90cd-4153-bf13-1c785b082c3d",
+                    "label": "Babycare",
+                    "value": "--cat-baby"
+                  },
+                  {
+                    "uuid": "2a773047-f70e-4675-a610-f0c3e4c7f13d",
+                    "label": "Active",
+                    "value": " --cat-active"
+                  },
+                  {
+                    "uuid": "fe04acff-e84c-483c-8817-92e33659e1ef",
+                    "label": "No Background",
+                    "value": " "
+                  }
+                ],
+                "defaultValue": " "
+              },
+              {
+                "uuid": "132b5cbe-009d-4078-b43e-77cf8489a223",
+                "id": "useColorHex",
+                "label": "use color hex value",
+                "type": "checkbox",
+                "defaultValue": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "eedcee7f-1521-4e2d-b882-d548d5ac97cc",
+        "id": "content",
+        "label": "Content Configurations",
+        "type": "object",
+        "properties": [
+          {
+            "uuid": "33b92f30-c256-4ba4-b347-5d0fe825f1b9",
+            "id": "headline",
+            "label": "your headline",
+            "type": "object",
+            "properties": [
+              {
+                "uuid": "e39ab576-f51a-4199-8068-df72ca2c0b77",
+                "id": "text",
+                "label": "text",
+                "type": "text"
+              },
+              {
+                "uuid": "b648bf7c-6db5-42ec-82f7-26994861463c",
+                "id": "styles",
+                "label": "choose your styles",
+                "type": "object",
+                "properties": [
+                  {
+                    "uuid": "2e73e50f-111d-4ce4-90d0-6746d37e4172",
+                    "id": "type",
+                    "label": "type",
+                    "type": "select",
+                    "options": [
+                      {
+                        "uuid": "d4e5abfe-dd0f-47bf-ab82-1560371b0afc",
+                        "label": "pageTitle (H1)",
+                        "value": "h1"
+                      },
+                      {
+                        "uuid": "5aa02b56-4b20-4829-a668-194eb6a6319e",
+                        "label": "heading (H2)",
+                        "value": "h2"
+                      },
+                      {
+                        "uuid": "f4d076bb-85ef-4573-b63e-f0e30af7c820",
+                        "label": "subheading (H3)",
+                        "value": "h3"
+                      },
+                      {
+                        "uuid": "73951158-e196-4d75-a3da-28e321142ea5",
+                        "label": "subsubheading (H4)",
+                        "value": "h4"
+                      },
+                      {
+                        "uuid": "64631635-8169-40d1-9549-4de845419e91",
+                        "label": "subsubsubheading (H5)",
+                        "value": "h5"
+                      },
+                      {
+                        "uuid": "0dbccbe8-7b3a-4320-9ab4-c3b66783fca3",
+                        "label": "smallheading (H6)",
+                        "value": "h6"
+                      }
+                    ],
+                    "defaultValue": "h4"
+                  },
+                  {
+                    "uuid": "97db6ab6-c4e0-4e6d-a2b5-b292bf59535d",
+                    "id": "position",
+                    "label": "position",
+                    "type": "select",
+                    "options": [
+                      {
+                        "uuid": "61237732-c505-4e00-95b3-88e0f80cd021",
+                        "label": "left",
+                        "value": "left"
+                      },
+                      {
+                        "uuid": "cdaec2da-b0af-4709-8121-e5f9c287d141",
+                        "label": "center",
+                        "value": "center"
+                      },
+                      {
+                        "uuid": "97d916d9-507a-4c30-b8f2-9b98a82be19f",
+                        "label": "right",
+                        "value": "right"
+                      }
+                    ],
+                    "defaultValue": "left"
+                  },
+                  {
+                    "uuid": "c54a24a8-0848-4a9d-89a8-42de4a5ef64d",
+                    "id": "colorHex",
+                    "label": "choose your color with color hex",
+                    "type": "colorpicker"
+                  },
+                  {
+                    "uuid": "7cc4d7a5-a1a2-4588-a348-1e1066b8f3da",
+                    "id": "colorVar",
+                    "label": "choose your color from category colors",
+                    "type": "text",
+                    "description": "any color var theme",
+                    "defaultValue": ""
+                  },
+                  {
+                    "uuid": "a986dfb4-9a92-4907-99f1-8850a8d24e39",
+                    "id": "useColorHex",
+                    "label": "use color hex value",
+                    "type": "checkbox"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "uuid": "f3ce75be-54b5-4638-b2be-48bb61824e4d",
+            "id": "subHeadline",
+            "label": "your subHeadline",
+            "type": "object",
+            "properties": [
+              {
+                "uuid": "fc7e5f51-09a4-433e-8835-4d5abf67bd4b",
+                "id": "text",
+                "label": "text",
+                "type": "text"
+              },
+              {
+                "uuid": "7a7583db-3483-4fa9-a9cb-17a109d9243e",
+                "id": "styles",
+                "label": "choose your styles",
+                "type": "object",
+                "properties": [
+                  {
+                    "uuid": "af9a48f6-7ab8-47cc-ab92-ed43c00e294e",
+                    "id": "type",
+                    "label": "type",
+                    "type": "select",
+                    "options": [
+                      {
+                        "uuid": "45978cce-0650-4f37-a517-928b29767399",
+                        "label": "Pagetitle (H1)",
+                        "value": "h1"
+                      },
+                      {
+                        "uuid": "abd554b0-c9b9-4fc4-ba1f-36a4be65e81b",
+                        "label": "Heading (H2)",
+                        "value": "h2"
+                      },
+                      {
+                        "uuid": "d6704e9d-8ffc-44df-a5ff-ec8e535a8d01",
+                        "label": "Subheading (H3)",
+                        "value": "h3"
+                      },
+                      {
+                        "uuid": "4b69514c-114a-4fcc-ada4-3e022e68f34e",
+                        "label": "Subsubheading (H4)",
+                        "value": "h4"
+                      },
+                      {
+                        "uuid": "e9e3b3d5-fcab-4803-b370-6c530c9c0cac",
+                        "label": "Subsubsubheading (H5)",
+                        "value": "h5"
+                      },
+                      {
+                        "uuid": "fdbe4f6b-4e94-42d1-ad83-901363446d6a",
+                        "label": "Small Heading (H6)",
+                        "value": "h6"
+                      }
+                    ],
+                    "defaultValue": "h5"
+                  },
+                  {
+                    "uuid": "9413bdee-3468-4d25-b472-e15d8b4cb320",
+                    "id": "position",
+                    "label": "position",
+                    "type": "select",
+                    "options": [
+                      {
+                        "uuid": "eac1160f-f59c-43c2-ba05-c47f99363164",
+                        "label": "Left",
+                        "value": "left"
+                      },
+                      {
+                        "uuid": "fa9dd93c-d062-4620-aaf3-c1ddf177b50e",
+                        "label": "Center",
+                        "value": "center"
+                      },
+                      {
+                        "uuid": "daadf5b1-20d3-4d7c-bd00-03f2df98ffb9",
+                        "label": "Right",
+                        "value": "right"
+                      }
+                    ],
+                    "defaultValue": "left"
+                  },
+                  {
+                    "uuid": "b43d7f53-00b3-4bd8-b378-200a299c54a4",
+                    "id": "colorHex",
+                    "label": "choose your color with color hex",
+                    "type": "colorpicker"
+                  },
+                  {
+                    "uuid": "ec9e9255-d5b0-48d3-b225-1fe98e9d91ee",
+                    "id": "colorVar",
+                    "label": "choose your color from category color",
+                    "type": "text",
+                    "defaultValue": ""
+                  },
+                  {
+                    "uuid": "0828b92a-4989-44f1-abea-8f0a96001607",
+                    "id": "useColorHex",
+                    "label": "use color hex",
+                    "type": "checkbox"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "uuid": "418de3b1-dcb4-45a3-8032-9f98fbe5ecd8",
+            "id": "media",
+            "label": "Media Configurations",
+            "type": "object",
+            "properties": [
+              {
+                "uuid": "6c3c1742-0cd8-43c3-a198-28bea91fcd37",
+                "id": "type",
+                "label": "type",
+                "type": "select",
+                "options": [
+                  {
+                    "uuid": "7fb83601-5c38-4d56-b296-ee381397657b",
+                    "label": "image",
+                    "value": "image"
+                  },
+                  {
+                    "uuid": "b26a5a03-f900-4aec-86d9-5536ee51f5fb",
+                    "label": "video",
+                    "value": "video"
+                  }
+                ],
+                "defaultValue": "image"
+              },
+              {
+                "uuid": "3625bb58-70e3-4cd2-9316-2525d11cafa2",
+                "id": "src",
+                "label": "source",
+                "type": "file"
+              },
+              {
+                "uuid": "af6fc7d5-c862-42cd-b6ad-5cf8213767f4",
+                "id": "thumbnail",
+                "label": "thumbnail",
+                "type": "file"
+              },
+              {
+                "uuid": "ff610780-c17d-4323-8c13-d62e2248ba1d",
+                "id": "link",
+                "label": "choose your link",
+                "type": "object",
+                "properties": [
+                  {
+                    "uuid": "91a3310d-5958-4de3-9c12-1638779c4875",
+                    "id": "href",
+                    "label": "url",
+                    "type": "text"
+                  },
+                  {
+                    "uuid": "f209de18-b449-4225-a14a-6772fd7d1992",
+                    "id": "newTab",
+                    "label": "open in a new tab?",
+                    "type": "checkbox"
+                  }
+                ]
+              },
+              {
+                "uuid": "8f9413d6-467a-44b3-a24c-b5cfaded29e3",
+                "id": "caption",
+                "label": "choose your caption",
+                "type": "text",
+                "description": "only applies\u0026nbsp;to the image"
+              },
+              {
+                "uuid": "8e97a75e-c32b-4bce-b96f-c108cf0b0f44",
+                "id": "styles",
+                "label": "choose your styles",
+                "type": "object",
+                "properties": [
+                  {
+                    "uuid": "c087a100-0844-4cdf-b4c9-b1a03000f1a5",
+                    "id": "parallaxEffect",
+                    "label": "enable parallax effect",
+                    "type": "checkbox"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "uuid": "d41fa811-52f3-4546-9c32-da980a896129",
+            "id": "paragraph",
+            "label": "paragraph Configurations",
+            "type": "object",
+            "properties": [
+              {
+                "uuid": "33f1f3e5-7475-40fa-b31b-10c86ce77f99",
+                "id": "text",
+                "label": "write your text",
+                "type": "richtext"
+              },
+              {
+                "uuid": "b87745ec-b2ce-4658-9fed-f33168f46111",
+                "id": "button",
+                "label": "Button Configurations",
+                "type": "object",
+                "properties": [
+                  {
+                    "uuid": "788f0670-bd64-48e0-bac6-0ffcbce9bf1e",
+                    "id": "text",
+                    "label": "choose your text",
+                    "type": "text"
+                  },
+                  {
+                    "uuid": "4a66ca14-59ee-4703-b16a-c0fc8feabdf9",
+                    "id": "link",
+                    "label": "choose your link",
+                    "type": "object",
+                    "properties": [
+                      {
+                        "uuid": "12f3bc0b-7a58-4d50-afb8-bdb84b52d927",
+                        "id": "href",
+                        "label": "url",
+                        "type": "text"
+                      },
+                      {
+                        "uuid": "c7bfc9a1-7d5e-4a3d-a187-9d0a8641ad7a",
+                        "id": "newTab",
+                        "label": "open in a new tab?",
+                        "type": "checkbox"
+                      }
+                    ]
+                  },
+                  {
+                    "uuid": "c6a9c8bd-2cb1-4356-b595-0a98dd161275",
+                    "id": "styles",
+                    "label": "choose your styles",
+                    "type": "object",
+                    "properties": [
+                      {
+                        "uuid": "b3adffef-6c70-4006-b969-cb856842716d",
+                        "id": "position",
+                        "label": "position",
+                        "type": "select",
+                        "options": [
+                          {
+                            "uuid": "8edb01fe-d176-4694-afbf-09fba74f10ca",
+                            "label": "left",
+                            "value": "left"
+                          },
+                          {
+                            "uuid": "b965f7ea-eac5-4beb-a6bc-8c3d804a4e7f",
+                            "label": "center",
+                            "value": "center"
+                          },
+                          {
+                            "uuid": "d52ecebf-8320-4dea-b533-a9c4e9fabc51",
+                            "label": "right",
+                            "value": "right"
+                          }
+                        ],
+                        "defaultValue": "left"
+                      },
+                      {
+                        "uuid": "8687d883-c90e-45a4-bd21-49d9d1526720",
+                        "id": "colorHex",
+                        "label": "choose your color with color hex",
+                        "type": "text",
+                        "description": ""
+                      },
+                      {
+                        "uuid": "7f23810b-bbef-4419-806d-1de35ff6389a",
+                        "id": "colorVar",
+                        "label": "choose color from category colors",
+                        "type": "text",
+                        "description": "Default:\u0026nbsp;--neutral-10",
+                        "defaultValue": "--neutral-10"
+                      },
+                      {
+                        "uuid": "61b34de3-7a38-427a-a3cd-1688ac4480c9",
+                        "id": "useColorHex",
+                        "label": "use color hex",
+                        "type": "checkbox"
+                      },
+                      {
+                        "uuid": "d941ab0e-ee01-4c16-9d67-d753384c7221",
+                        "id": "colorBgHex",
+                        "label": "choose background color with color hex",
+                        "type": "colorpicker"
+                      },
+                      {
+                        "uuid": "d03b23c1-e8a9-444c-a6a6-a82b2920c4dd",
+                        "id": "colorBgVar",
+                        "label": "choose background color from variants",
+                        "type": "text",
+                        "description": "Default:\u0026nbsp;--button-primary",
+                        "defaultValue": "--button-primary"
+                      },
+                      {
+                        "uuid": "3cc787b9-b97a-4b5b-bc64-5fd030e64184",
+                        "id": "size",
+                        "label": "choose your button size",
+                        "type": "select",
+                        "options": [
+                          {
+                            "uuid": "66837b7e-581e-4b5d-9429-54c76faa406c",
+                            "label": "Large",
+                            "value": "large"
+                          },
+                          {
+                            "uuid": "238167ce-2ea3-4e00-a62f-54588e666f7a",
+                            "label": "Small",
+                            "value": "small"
+                          }
+                        ],
+                        "defaultValue": "large"
+                      },
+                      {
+                        "uuid": "51ec3ab7-232d-48a6-9e69-1af6cb19d796",
+                        "id": "useBgColorHex",
+                        "label": "use background color from color hex",
+                        "type": "checkbox"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user": "jm@marmalade.group",
+    "changed": {
+      "date": "2022-01-28 18:04:25.000000",
+      "timezone_type": 3,
+      "timezone": "Europe\/Berlin"
+    },
+    "icon": ""
+  },
+  {
+    "id": 21,
+    "identifier": "complex-example-3",
+    "name": "Complex Example 3",
+    "fields": [
+      {
+        "uuid": "d37c80c5-42bb-49b5-8357-5a7e9138a7d0",
+        "id": "headline",
+        "label": "\u00dcberschrift",
+        "type": "text"
+      },
+      {
+        "uuid": "26fb7f01-79cc-4f99-b05b-bdb9de8c6ad4",
+        "id": "showOptionalTiles",
+        "label": "Optionale Kategorien anzeigen",
+        "type": "checkbox"
+      },
+      {
+        "uuid": "8e585257-ac9a-4d06-976f-0fcf1c00e0a2",
+        "id": "tiles",
+        "label": "",
+        "type": "array",
+        "childConfig": {
+          "id": "79067bd5-413b-4e6b-b419-e23664d542ad",
+          "type": "object",
+          "properties": [
+            {
+              "uuid": "b1038897-2f02-4b0f-bbda-236a35b7d6de",
+              "id": "link",
+              "label": "Link",
+              "type": "text"
+            },
+            {
+              "uuid": "26fc7a1c-d018-44a7-8031-de2cafc2d500",
+              "id": "image",
+              "label": "Bild",
+              "type": "object",
+              "properties": [
+                {
+                  "uuid": "10617e71-2fd0-4d1e-9b2b-d7b7371d5ea3",
+                  "id": "large",
+                  "label": "Desktop",
+                  "type": "file"
+                },
+                {
+                  "uuid": "e00bc3ef-c9e9-4518-9319-b121375b851c",
+                  "id": "small",
+                  "label": "Mobile",
+                  "type": "file"
+                },
+                {
+                  "uuid": "3ec4039b-98a7-4ebe-a021-cd6eed282b01",
+                  "id": "title",
+                  "label": "Bild Titel",
+                  "type": "text"
+                },
+                {
+                  "uuid": "65700994-e0d0-4b71-8d02-4be9e0f00c08",
+                  "id": "alt",
+                  "label": "Bild Alternativtext",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "uuid": "196b7f90-3c52-4c11-a6a5-51699e83a4e5",
+              "id": "content",
+              "label": "Content-Block",
+              "type": "object",
+              "properties": [
+                {
+                  "uuid": "4ff18ad2-720b-45aa-944f-3b89796778d5",
+                  "id": "heading",
+                  "label": "Heading",
+                  "type": "text"
+                },
+                {
+                  "uuid": "f0c6cde9-11a1-44d3-b93b-a444dea60bf5",
+                  "id": "text",
+                  "label": "Flie\u00dftext",
+                  "type": "text"
+                },
+                {
+                  "uuid": "420d6fda-c01b-4ff5-9873-73ea958f2a63",
+                  "id": "color",
+                  "label": "Textfarbe",
+                  "type": "select",
+                  "options": [
+                    {
+                      "uuid": "25793527-5162-4abd-8995-915525d273ed",
+                      "label": "Light Black",
+                      "value": "#616161"
+                    },
+                    {
+                      "uuid": "0c0f809c-91ef-4ca2-8c25-acdc7a1638ca",
+                      "label": "Black",
+                      "value": "#292929"
+                    },
+                    {
+                      "uuid": "0e3f1455-e34e-402c-b727-71485a894380",
+                      "label": "Dark Black",
+                      "value": "#000000"
+                    },
+                    {
+                      "uuid": "04288609-a3c2-4e66-a07b-b52d39a66d7e",
+                      "label": "Gray",
+                      "value": "#F2F2F2"
+                    },
+                    {
+                      "uuid": "e73ef660-847b-457e-bc06-604d7198f75b",
+                      "label": "Light Gray",
+                      "value": "#F6F6F6"
+                    },
+                    {
+                      "uuid": "79931bab-41de-4a38-b698-1a9928200a6f",
+                      "label": "Dark Gray",
+                      "value": "#DDDDDD"
+                    },
+                    {
+                      "uuid": "b7d60efd-3e6c-47dc-b575-d67dc2402d21",
+                      "label": "Placeholder Gray-16",
+                      "value": "rgba(0, 0, 0, 0.16)"
+                    },
+                    {
+                      "uuid": "6c02aa7d-82c2-46f6-ac18-0525cc37e635",
+                      "label": "Placeholder Lighter Black",
+                      "value": "#A2A2A2"
+                    },
+                    {
+                      "uuid": "50b3cd8a-aabe-4186-8839-31dedf251609",
+                      "label": "Placeholder Darker Gray",
+                      "value": "#707070"
+                    },
+                    {
+                      "uuid": "d990d2e4-2fc7-46d8-a53d-5187db86eadc",
+                      "label": "Placeholder Blue",
+                      "value": "#161615"
+                    },
+                    {
+                      "uuid": "9d2e76d6-3ee4-499a-bed7-c5f3c730e423",
+                      "label": "Placeholder Dark Blue",
+                      "value": "#141215"
+                    },
+                    {
+                      "uuid": "c0909ac1-de95-4538-bbec-3ace56a90fda",
+                      "label": "Error red",
+                      "value": "red"
+                    },
+                    {
+                      "uuid": "220884f7-9506-47cb-9577-82196d13fb13",
+                      "label": "Orange",
+                      "value": "#EF7F01"
+                    },
+                    {
+                      "uuid": "5e9378b8-4fac-4002-87ef-551e737ab50b",
+                      "label": "White",
+                      "value": "#ffffff"
+                    }
+                  ],
+                  "defaultValue": "#000000"
+                }
+              ]
+            },
+            {
+              "uuid": "89b29c16-711f-41fd-91ab-af4e6cee97e3",
+              "id": "button",
+              "label": "Button",
+              "type": "object",
+              "properties": [
+                {
+                  "uuid": "d648e41f-f74f-41de-9725-86840c85606b",
+                  "id": "text",
+                  "label": "Button Text",
+                  "type": "text"
+                },
+                {
+                  "uuid": "ac10d0c5-35c3-4d55-ad68-77e6848691ef",
+                  "id": "color",
+                  "label": "Button Textfarbe",
+                  "type": "select",
+                  "options": [
+                    {
+                      "uuid": "b4561bd1-524e-4207-8fb0-11e5775e8a9c",
+                      "label": "Light Black",
+                      "value": "#616161"
+                    },
+                    {
+                      "uuid": "ef1d114a-91e0-41de-a8b3-70696f010827",
+                      "label": "Black",
+                      "value": "#292929"
+                    },
+                    {
+                      "uuid": "fef84feb-3aa8-444c-9a38-2be450945c76",
+                      "label": "Dark Black",
+                      "value": "#000000"
+                    },
+                    {
+                      "uuid": "cc119d10-34f6-45a2-bccb-b6a78d571700",
+                      "label": "Gray",
+                      "value": "#F2F2F2"
+                    },
+                    {
+                      "uuid": "7d397e80-60c5-40e9-9b5f-3f33c247ca9e",
+                      "label": "Light Gray",
+                      "value": "#F6F6F6"
+                    },
+                    {
+                      "uuid": "4a8ac132-669c-4f39-a7ed-94ffe6d8a296",
+                      "label": "Dark Gray",
+                      "value": "#DDDDDD"
+                    },
+                    {
+                      "uuid": "3e04fb29-139e-4d08-9fbb-7f34cdc48159",
+                      "label": "Placeholder Gray-16",
+                      "value": "rgba(0, 0, 0, 0.16)"
+                    },
+                    {
+                      "uuid": "145e67c5-3e47-41b5-b6ce-6cee03399cf9",
+                      "label": "Placeholder Lighter Black",
+                      "value": "#A2A2A2"
+                    },
+                    {
+                      "uuid": "6f473388-ded4-49f8-9b38-49fd4bae04b6",
+                      "label": "Placeholder Darker Gray",
+                      "value": "#707070"
+                    },
+                    {
+                      "uuid": "3024b889-d879-4959-a9d9-b1dcb72328ad",
+                      "label": "Placeholder Blue",
+                      "value": "#161615"
+                    },
+                    {
+                      "uuid": "67f92d7f-316d-481e-9899-e5a742f0acb0",
+                      "label": "Placeholder Dark Blue",
+                      "value": "#141215"
+                    },
+                    {
+                      "uuid": "44356a31-4d12-47dd-aed6-1caffb7dd20b",
+                      "label": "Error red",
+                      "value": "red"
+                    },
+                    {
+                      "uuid": "db56fe56-dc52-4ee5-8de0-c1416d4be986",
+                      "label": "Orange",
+                      "value": "#EF7F01"
+                    },
+                    {
+                      "uuid": "ea849375-3556-48e9-a71e-945e2b6d3871",
+                      "label": "White",
+                      "value": "#ffffff"
+                    }
+                  ],
+                  "defaultValue": "#ffffff"
+                },
+                {
+                  "uuid": "e2088898-b0d1-479d-806f-306f9bcef96f",
+                  "id": "background",
+                  "label": "Button Hintergrundfarbe",
+                  "type": "select",
+                  "options": [
+                    {
+                      "uuid": "5a924d11-7e8d-4775-ba35-a3b4df74a3b8",
+                      "label": "Light Black",
+                      "value": "#616161"
+                    },
+                    {
+                      "uuid": "bbc3579c-e2bf-40bf-86dd-fd61abaad8e2",
+                      "label": "Black",
+                      "value": "#292929"
+                    },
+                    {
+                      "uuid": "13bc352c-ade2-4d57-9061-8ea92d1608cf",
+                      "label": "Dark Black",
+                      "value": "#000000"
+                    },
+                    {
+                      "uuid": "89fbbd50-24d8-4a18-91d3-2d50db470f67",
+                      "label": "Gray",
+                      "value": "#F2F2F2"
+                    },
+                    {
+                      "uuid": "76389539-7b47-4a8e-9813-ff9b162266ba",
+                      "label": "Light Gray",
+                      "value": "#F6F6F6"
+                    },
+                    {
+                      "uuid": "edb0e62c-02fd-420f-aa1b-5e817d1751ca",
+                      "label": "Dark Gray",
+                      "value": "#DDDDDD"
+                    },
+                    {
+                      "uuid": "6d6e2497-f6dd-4c8a-92ce-aa143f8d4bcf",
+                      "label": "Placeholder Gray-16",
+                      "value": "rgba(0, 0, 0, 0.16)"
+                    },
+                    {
+                      "uuid": "315c9c56-d224-493a-b076-394944be5bb3",
+                      "label": "Placeholder Lighter Black",
+                      "value": "#A2A2A2"
+                    },
+                    {
+                      "uuid": "4bad2ca9-29a9-4742-a635-953c21751b55",
+                      "label": "Placeholder Darker Gray",
+                      "value": "#707070"
+                    },
+                    {
+                      "uuid": "1bf0d929-4eae-44b5-b6cf-be1e9cac0d92",
+                      "label": "Placeholder Blue",
+                      "value": "#161615"
+                    },
+                    {
+                      "uuid": "e14ee22f-b8f6-412c-9dd1-7ccfcb2e5b88",
+                      "label": "Placeholder Dark Blue",
+                      "value": "#141215"
+                    },
+                    {
+                      "uuid": "fda9614a-d1f4-4a24-9d23-6a043ae4540b",
+                      "label": "Error red",
+                      "value": "red"
+                    },
+                    {
+                      "uuid": "c7e8cee0-3bb2-4a47-afb0-5ce324273426",
+                      "label": "Orange",
+                      "value": "#EF7F01"
+                    },
+                    {
+                      "uuid": "ab4a9914-0c2b-471f-ba62-1a89a9f7c08e",
+                      "label": "White",
+                      "value": "#ffffff"
+                    }
+                  ],
+                  "defaultValue": "#EF7F01"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "user": "rm@marmalade.group",
+    "changed": {
+      "date": "2022-01-18 18:13:26.000000",
+      "timezone_type": 3,
+      "timezone": "Europe\/Berlin"
+    },
+    "icon": ""
+  },
+  {
+    "id": 20,
+    "identifier": "complex-exampe-2",
+    "name": "Complex Example 2",
+    "fields": [
+      {
+        "uuid": "959f7792-b605-4174-a7c0-e5107edcbee6",
+        "id": "headline",
+        "label": "\u00dcberschrift",
+        "type": "text"
+      },
+      {
+        "uuid": "c1257957-781c-4c71-a5f9-2267355caa2b",
+        "id": "tiles",
+        "label": "",
+        "type": "array",
+        "childConfig": {
+          "id": "1a3360c3-4c85-41dd-8beb-da50cc811466",
+          "type": "object",
+          "properties": [
+            {
+              "uuid": "85e6b2f5-c205-4335-a7d8-d07fb6da64b5",
+              "id": "link",
+              "label": "Link",
+              "type": "text"
+            },
+            {
+              "uuid": "c8a1aedc-d576-4439-89ba-b931323a6dec",
+              "id": "type",
+              "label": "Type",
+              "type": "select",
+              "options": [
+                {
+                  "uuid": "66dba79e-0c2a-4590-81ea-fb12f7f3ebc6",
+                  "label": "Hot Spot",
+                  "value": "hotspot"
+                },
+                {
+                  "uuid": "0883d4e1-b939-4974-8e49-de13b708dd36",
+                  "label": "Normal",
+                  "value": "normal"
+                }
+              ],
+              "defaultValue": "normal"
+            },
+            {
+              "uuid": "1f541efc-089a-445a-8e51-6cfe08922ac1",
+              "id": "hotspotImageDirection",
+              "label": "Hot Spot Image direction",
+              "type": "select",
+              "options": [
+                {
+                  "uuid": "bac472eb-07d2-4048-a2fe-52d62f7c862e",
+                  "label": "Row",
+                  "value": "row"
+                },
+                {
+                  "uuid": "2f4c53bc-75bb-458d-9241-92bd8f238cad",
+                  "label": "Column",
+                  "value": "column"
+                }
+              ],
+              "defaultValue": "row"
+            },
+            {
+              "uuid": "29497f2f-212a-4e54-8f6c-049b0a271ad0",
+              "id": "hotspotImage",
+              "label": "Hot Spot Image",
+              "type": "hotspot",
+              "properties": [
+                {
+                  "uuid": "06e45e61-3585-4389-aaa5-0b5e3a6be1ed",
+                  "id": "content",
+                  "label": "Content",
+                  "type": "documents",
+                  "documentType": "product"
+                },
+                {
+                  "uuid": "843ae10c-e958-431e-9760-af4a5cb51b0f",
+                  "id": "color",
+                  "label": "Color",
+                  "type": "select",
+                  "options": [
+                    {
+                      "uuid": "e9440241-d354-4997-a26c-c4155c6ff6c0",
+                      "label": "Black",
+                      "value": "black"
+                    },
+                    {
+                      "uuid": "40a78f8e-06a1-4d24-8334-703219eea9da",
+                      "label": "White",
+                      "value": "white"
+                    }
+                  ],
+                  "defaultValue": "black"
+                }
+              ]
+            },
+            {
+              "uuid": "a640d4a6-b770-4333-bf49-d28f5cf88ef4",
+              "id": "image",
+              "label": "Bild",
+              "type": "object",
+              "properties": [
+                {
+                  "uuid": "29f4b137-c619-4804-881d-4335791a34a3",
+                  "id": "large",
+                  "label": "Desktop",
+                  "type": "file"
+                },
+                {
+                  "uuid": "7709dcf5-a330-4e2d-8758-3b4693c02eb5",
+                  "id": "small",
+                  "label": "Mobile",
+                  "type": "file"
+                },
+                {
+                  "uuid": "79b10b77-9859-4db8-ab2e-592f70b3827e",
+                  "id": "title",
+                  "label": "Bild Titel",
+                  "type": "text"
+                },
+                {
+                  "uuid": "ebd590e8-e296-48c2-9749-42b86f59d208",
+                  "id": "alt",
+                  "label": "Bild Alternativtext",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "uuid": "6682e5a4-9ce2-4ddf-a712-5d99a221cb0a",
+              "id": "content",
+              "label": "Content-Block",
+              "type": "object",
+              "properties": [
+                {
+                  "uuid": "155a56ae-a863-49f6-9247-9edffca37222",
+                  "id": "heading",
+                  "label": "Heading",
+                  "type": "text"
+                },
+                {
+                  "uuid": "09f65320-1c6c-4d57-b464-1988013ce1d9",
+                  "id": "text",
+                  "label": "Flie\u00dftext",
+                  "type": "text"
+                },
+                {
+                  "uuid": "56319201-4723-4208-8546-a74b3a41ead2",
+                  "id": "color",
+                  "label": "Textfarbe",
+                  "type": "select",
+                  "options": [
+                    {
+                      "uuid": "b7242074-0d4a-4986-9243-58922c3296f4",
+                      "label": "Light Black",
+                      "value": "#616161"
+                    },
+                    {
+                      "uuid": "a26ea2fa-e030-41d8-ac54-3939c81561e9",
+                      "label": "Black",
+                      "value": "#292929"
+                    },
+                    {
+                      "uuid": "fc8788a2-8c22-4347-9c8c-5a7b338540c7",
+                      "label": "Dark Black",
+                      "value": "#000000"
+                    },
+                    {
+                      "uuid": "5ac23c8c-e09d-42eb-9977-9b91bb6530ad",
+                      "label": "Gray",
+                      "value": "#F2F2F2"
+                    },
+                    {
+                      "uuid": "a6278bab-9c06-4c09-aabf-32c09803ca22",
+                      "label": "Light Gray",
+                      "value": "#F6F6F6"
+                    },
+                    {
+                      "uuid": "31224add-8922-4b32-a05a-9c78956b5e4d",
+                      "label": "Dark Gray",
+                      "value": "#DDDDDD"
+                    },
+                    {
+                      "uuid": "987b7fcc-1fcd-44df-afd6-6ab079b98309",
+                      "label": "Placeholder Gray-16",
+                      "value": "rgba(0, 0, 0, 0.16)"
+                    },
+                    {
+                      "uuid": "2bae955f-2a04-473c-9c03-9b3db42ef33a",
+                      "label": "Placeholder Lighter Black",
+                      "value": "#A2A2A2"
+                    },
+                    {
+                      "uuid": "dffbf68a-0c55-4638-b25e-60214c9a9a45",
+                      "label": "Placeholder Darker Gray",
+                      "value": "#707070"
+                    },
+                    {
+                      "uuid": "7d30e48d-af9d-4294-90aa-2f9f6cc90ee9",
+                      "label": "Placeholder Blue",
+                      "value": "#161615"
+                    },
+                    {
+                      "uuid": "f794c4d7-eeee-4f00-99f1-2deacb4f7b63",
+                      "label": "Placeholder Dark Blue",
+                      "value": "#141215"
+                    },
+                    {
+                      "uuid": "2e59cce0-899b-4378-b41d-efaf1496bd88",
+                      "label": "Error red",
+                      "value": "red"
+                    },
+                    {
+                      "uuid": "08edb99a-7a0c-4287-8a85-2645337c1239",
+                      "label": "Orange",
+                      "value": "#EF7F01"
+                    },
+                    {
+                      "uuid": "66087eba-99fc-44e4-9366-7ca3107af319",
+                      "label": "White",
+                      "value": "#ffffff"
+                    }
+                  ],
+                  "defaultValue": "#000000"
+                }
+              ]
+            },
+            {
+              "uuid": "1a15cf91-4c5c-41f2-bb5b-5232c5d8a49f",
+              "id": "button",
+              "label": "Button",
+              "type": "object",
+              "properties": [
+                {
+                  "uuid": "254ad65c-27f7-4c8f-96bf-ef6947f780d1",
+                  "id": "text",
+                  "label": "Button Text",
+                  "type": "text"
+                },
+                {
+                  "uuid": "a72c7e42-9090-417a-84ec-6da07b018e3b",
+                  "id": "color",
+                  "label": "Button Textfarbe",
+                  "type": "select",
+                  "options": [
+                    {
+                      "uuid": "1c4f637b-9aa5-4fa7-916c-c0e2517eb600",
+                      "label": "Light Black",
+                      "value": "#616161"
+                    },
+                    {
+                      "uuid": "76f4fda9-b76f-4ab4-828f-57557a958e5b",
+                      "label": "Black",
+                      "value": "#292929"
+                    },
+                    {
+                      "uuid": "e20b79c6-2344-4ece-9337-2dd24fc860c5",
+                      "label": "Dark Black",
+                      "value": "#000000"
+                    },
+                    {
+                      "uuid": "e43ddc7d-8779-48f4-b442-36733920a5a6",
+                      "label": "Gray",
+                      "value": "#F2F2F2"
+                    },
+                    {
+                      "uuid": "64751a6c-4fb2-4d79-a16c-1432ac71f438",
+                      "label": "Light Gray",
+                      "value": "#F6F6F6"
+                    },
+                    {
+                      "uuid": "6ed962c8-ed4f-48f0-80ba-e9102aad744f",
+                      "label": "Dark Gray",
+                      "value": "#DDDDDD"
+                    },
+                    {
+                      "uuid": "72f19f53-82b4-4583-9223-b423a11e2aa2",
+                      "label": "Placeholder Gray-16",
+                      "value": "rgba(0, 0, 0, 0.16)"
+                    },
+                    {
+                      "uuid": "84c67e2b-f25a-4bc0-8e2a-614d803213dc",
+                      "label": "Placeholder Lighter Black",
+                      "value": "#A2A2A2"
+                    },
+                    {
+                      "uuid": "e677d813-dc37-4756-a3d5-c83990ecc320",
+                      "label": "Placeholder Darker Gray",
+                      "value": "#707070"
+                    },
+                    {
+                      "uuid": "031fad45-51eb-4b2b-ac30-dbbf24bf80f4",
+                      "label": "Placeholder Blue",
+                      "value": "#161615"
+                    },
+                    {
+                      "uuid": "7dbf2a2a-94c4-456a-a5e0-e30427597045",
+                      "label": "Placeholder Dark Blue",
+                      "value": "#141215"
+                    },
+                    {
+                      "uuid": "7fd9fbf0-e704-4541-8639-047c53543653",
+                      "label": "Error red",
+                      "value": "red"
+                    },
+                    {
+                      "uuid": "5ccb2604-74dc-4996-8109-07b03efc844f",
+                      "label": "Orange",
+                      "value": "#EF7F01"
+                    },
+                    {
+                      "uuid": "8cbb0d68-ec10-4c7d-a7d5-7ca4da075ec3",
+                      "label": "White",
+                      "value": "#ffffff"
+                    }
+                  ]
+                },
+                {
+                  "uuid": "fc0d5a7c-7063-4833-903a-25d7ab27ead4",
+                  "id": "background",
+                  "label": "Button Hintergrundfarbe",
+                  "type": "select",
+                  "options": [
+                    {
+                      "uuid": "2d082141-06de-42bf-9211-9b64f2463300",
+                      "label": "Light Black",
+                      "value": "#616161"
+                    },
+                    {
+                      "uuid": "faba22f6-7348-4aeb-91e2-2fe3eced18bd",
+                      "label": "Black",
+                      "value": "#292929"
+                    },
+                    {
+                      "uuid": "032cbcf5-789d-4dd2-92c0-53a9ac0e6b55",
+                      "label": "Dark Black",
+                      "value": "#000000"
+                    },
+                    {
+                      "uuid": "a19d4914-efa6-4cb4-8423-71f3da647122",
+                      "label": "Gray",
+                      "value": "#F2F2F2"
+                    },
+                    {
+                      "uuid": "ff84f26d-dd33-47bb-9a68-801ff19d5c5b",
+                      "label": "Light Gray",
+                      "value": "#F6F6F6"
+                    },
+                    {
+                      "uuid": "5a790e8e-a130-43e5-8b58-9fd39c6933bd",
+                      "label": "Dark Gray",
+                      "value": "#DDDDDD"
+                    },
+                    {
+                      "uuid": "f3c3062d-57ec-4862-b751-c1ce599a6d53",
+                      "label": "Placeholder Gray-16",
+                      "value": "rgba(0, 0, 0, 0.16)"
+                    },
+                    {
+                      "uuid": "4e402be7-6410-433b-991d-f44edf52a434",
+                      "label": "Placeholder Lighter Black",
+                      "value": "#A2A2A2"
+                    },
+                    {
+                      "uuid": "e90453e6-e694-4ee4-ba5a-9d4edcc237c6",
+                      "label": "Placeholder Darker Gray",
+                      "value": "#707070"
+                    },
+                    {
+                      "uuid": "490281d5-3cd2-45aa-9b13-014efac74b31",
+                      "label": "Placeholder Blue",
+                      "value": "#161615"
+                    },
+                    {
+                      "uuid": "68011c97-902b-4258-892d-17f60e39547e",
+                      "label": "Placeholder Dark Blue",
+                      "value": "#141215"
+                    },
+                    {
+                      "uuid": "49e8b01b-0618-44f8-a34d-c95c53d7a069",
+                      "label": "Error red",
+                      "value": "red"
+                    },
+                    {
+                      "uuid": "89ed2b66-f9be-4e60-b0f5-058963f9d836",
+                      "label": "Orange",
+                      "value": "#EF7F01"
+                    },
+                    {
+                      "uuid": "f4a01d8e-b2a8-4fa3-8f16-b5a3372ee33a",
+                      "label": "White",
+                      "value": "#ffffff"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "user": "rm@marmalade.group",
+    "changed": {
+      "date": "2022-01-18 18:12:30.000000",
+      "timezone_type": 3,
+      "timezone": "Europe\/Berlin"
+    },
+    "icon": ""
+  },
+  {
+    "id": 18,
+    "identifier": "zert",
+    "name": "546r6",
+    "fields": [],
+    "user": "fl@marmalade.group",
+    "changed": {
+      "date": "2022-01-10 11:42:44.000000",
+      "timezone_type": 3,
+      "timezone": "Europe\/Berlin"
+    },
+    "icon": ""
+  },
+  {
+    "id": 16,
+    "identifier": "contact-form",
+    "name": "Contact Form",
+    "fields": [
+      {
+        "uuid": "47f2397d-5bd6-4c94-bcc3-99880189f344",
+        "id": "recipient",
+        "label": "Recipient",
+        "type": "text",
+        "defaultValue": "storefront@makaira.io"
+      }
+    ],
+    "user": "jm@marmalade.group",
+    "changed": {
+      "date": "2021-09-14 10:38:57.000000",
+      "timezone_type": 3,
+      "timezone": "Europe\/Berlin"
+    },
+    "icon": ""
+  },
+  {
+    "id": 15,
+    "identifier": "package-product",
+    "name": "Package Product (snippet)",
+    "fields": [
+      {
+        "uuid": "2f6a1964-467a-4e45-8037-4db426a37598",
+        "id": "bundleId",
+        "label": "Bundle ID",
+        "description": "",
+        "type": "text"
+      },
+      {
+        "uuid": "5f0f0ecb-08e2-421d-b833-83db8ca52d03",
+        "id": "position",
+        "label": "Slot position",
+        "type": "number"
+      },
+      {
+        "uuid": "1d2dcebc-4efe-4524-8399-9e6352c839cc",
+        "id": "slot",
+        "label": "Slot",
+        "type": "object",
+        "properties": [
+          {
+            "uuid": "b9eba022-a153-4d81-9b4c-5c243e8cd69d",
+            "id": "title",
+            "label": "Title",
+            "type": "text"
+          },
+          {
+            "uuid": "a457ec9b-243a-4d34-90d3-a3f8507b1c4a",
+            "id": "image",
+            "label": "Image",
+            "type": "file"
+          }
+        ]
+      }
+    ],
+    "user": "bt@marmalade.group",
+    "changed": {
+      "date": "2021-08-20 05:23:50.000000",
+      "timezone_type": 3,
+      "timezone": "Europe\/Berlin"
+    },
+    "icon": ""
+  }
+]

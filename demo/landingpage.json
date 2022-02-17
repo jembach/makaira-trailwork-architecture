@@ -1,0 +1,593 @@
+{
+  "id": 153,
+  "name": "Test Page",
+  "type": "page",
+  "user": "jm@marmalade.group",
+  "changed": {
+    "date": "2022-01-31 14:48:26.000000",
+    "timezone_type": 3,
+    "timezone": "Europe\/Berlin"
+  },
+  "active": false,
+  "searchable": true,
+  "seoUrls": {
+    "de": "/testpage",
+    "en": "/en/testpage"
+  },
+  "metadata": {
+    "de": {
+      "title": "asdf",
+      "seoTitle": "",
+      "description": "",
+      "keywords": "",
+      "robotIndex": "index",
+      "robotFollow": "follow"
+    },
+    "en": {
+      "title": "",
+      "seoTitle": "",
+      "description": "",
+      "keywords": "",
+      "robotIndex": "index",
+      "robotFollow": "follow"
+    }
+  },
+  "relatedDocumentId": "",
+  "snippetId": "",
+  "essentialSnippet": false,
+  "manufacturerId": "",
+  "categoryId": "",
+  "queries": "",
+  "config": {
+    "main": {
+      "elements": [
+        {
+          "id": "b9e66b62-7be6-4f35-8463-f5e5a2f03a83",
+          "component": "all-component-fields",
+          "name": "Alles mit Sauce und Scharf",
+          "properties": {
+            "de": {
+              "active": true,
+              "userGroups": {
+                "Alle Benutzer": {
+                  "active": true,
+                  "isTimed": false,
+                  "activeFrom": "2022-01-09T22:15:34.886Z",
+                  "activeTo": "2022-01-09T22:15:34.886Z"
+                }
+              },
+              "content": {
+                "manuallist": {
+                  "items": [
+                    {
+                      "id": "af5edd22dbf5efca1905a81c172d99be",
+                      "title": "KiteFix Kleber GLUFIX (30g)",
+                      "subtitle": "1506"
+                    },
+                    {
+                      "id": "577ec4214a3c8468008224d2fd314d22",
+                      "title": "Sonnenbrille TRIGGERNAUT AGENT ORANGE",
+                      "subtitle": "3501"
+                    },
+                    {
+                      "id": "b745195d6dece23ad92c0a6908cbdc74",
+                      "title": "Helm AHM 5000",
+                      "subtitle": "1505"
+                    },
+                    {
+                      "id": "792fa188f7a2885de20668719803d082",
+                      "title": "Kite LIQUID FORCE HAVOC+asdf",
+                      "subtitle": "1202"
+                    },
+                    {
+                      "id": "4ed1dd97726402c552e2b64222d22d6a",
+                      "title": "Stickerset MIX",
+                      "subtitle": "4001"
+                    },
+                    {
+                      "id": "e29d95b84fb19b7045f1284d9f5f0140",
+                      "title": "Kite RRD PASSION 2010",
+                      "subtitle": "1206"
+                    }
+                  ],
+                  "resolveDocuments": true
+                },
+                "text": "Title DE",
+                "rich-text": "\u003Cp\u003ELorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam at et exercitationem quia, ratione veniam. Blanditiis dolorem eum laudantium ut! Aliquam beatae cupiditate neque nihil officia perferendis sunt velit vero?\u003C\/p\u003E",
+                "number": "10",
+                "upload-image": null,
+                "upload-video": null,
+                "upload-file": null,
+                "checkbox": true,
+                "": "eins",
+                "multi-select": [
+                  "one"
+                ],
+                "group": {
+                  "feld1": "t\u00e9t",
+                  "feld2": "",
+                  "feld3": "testttt"
+                },
+                "streamlist": {
+                  "resolveStream": true,
+                  "streamId": 1,
+                  "maxDocumentCount": 8,
+                  "sort": "id",
+                  "order": "asc"
+                },
+                "colorpicker": {
+                  "hsla": "hsla(0, 72%, 53%, 1)",
+                  "rgba": "rgba(221, 49, 49, 1)",
+                  "hex": "#dd3131"
+                },
+                "hotspot": {
+                  "image": null,
+                  "spots": []
+                },
+                "array-image": [],
+                "array-text": [
+                  "DE test"
+                ],
+                "array-number": [
+                  "123"
+                ],
+                "array-object": [],
+                "hotspot-complex": {
+                  "image": null,
+                  "spots": []
+                },
+                "array": [
+                  "mecs-61e7c1d92e9e9-zoom.jpeg",
+                  "mecs-61e7c2223138c-Background.png"
+                ]
+              }
+            },
+            "en": {
+              "active": true,
+              "userGroups": {
+                "Alle Benutzer": {
+                  "active": true,
+                  "isTimed": false,
+                  "activeFrom": "2022-01-09T22:15:34.886Z",
+                  "activeTo": "2022-01-09T22:15:34.886Z"
+                }
+              },
+              "content": {
+                "manuallist": {
+                  "items": [
+                    {
+                      "id": "b745195d6dece23ad92c0a6908cbdc74",
+                      "title": "Helm AHM 5000",
+                      "subtitle": "1505"
+                    },
+                    {
+                      "id": "577ec4214a3c8468008224d2fd314d22",
+                      "title": "Sonnenbrille TRIGGERNAUT AGENT ORANGE",
+                      "subtitle": "3501"
+                    },
+                    {
+                      "id": "792fa188f7a2885de20668719803d082",
+                      "title": "Kite LIQUID FORCE HAVOC+asdf",
+                      "subtitle": "1202"
+                    },
+                    {
+                      "id": "4ed1dd97726402c552e2b64222d22d6a",
+                      "title": "Stickerset MIX",
+                      "subtitle": "4001"
+                    },
+                    {
+                      "id": "e29d95b84fb19b7045f1284d9f5f0140",
+                      "title": "Kite RRD PASSION 2010",
+                      "subtitle": "1206"
+                    }
+                  ],
+                  "resolveDocuments": true
+                },
+                "text": "Title EN",
+                "rich-text": "\u003Cp\u003ELorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam at et exercitationem quia, ratione veniam. Blanditiis dolorem eum laudantium ut! Aliquam beatae cupiditate neque nihil officia perferendis sunt velit vero?\u003C\/p\u003E\u003Cbr\u003E",
+                "number": "10",
+                "upload-image": "mecs-61e89e675fe45-image%20%283%29.png",
+                "upload-video": "mecs-61e89e7ea9a24-file_example_AVI_480_750kB.avi",
+                "upload-file": "mecs-61e89e974df8f-rvo_849_080521.pdf",
+                "checkbox": false,
+                "": "zwei",
+                "multi-select": [],
+                "group": {
+                  "feld1": "tessstttt",
+                  "feld2": "mecs-61e6399e8454c-zoom.jpeg",
+                  "feld3": "\u00e1dasdaaaaa"
+                },
+                "streamlist": {
+                  "resolveStream": true,
+                  "streamId": 1,
+                  "maxDocumentCount": 8,
+                  "sort": "id",
+                  "order": "desc"
+                },
+                "colorpicker": {
+                  "hsla": "hsla(229, 0, 0, 1.0)",
+                  "rgba": "rgba(0, 0, 0, 1.0)",
+                  "hex": "#000000"
+                },
+                "hotspot": {
+                  "image": "",
+                  "spots": []
+                },
+                "array-image": [
+                  "mecs-61ea6d5e713e1-zoom.jpeg"
+                ],
+                "array-text": [
+                  "test"
+                ],
+                "array-number": [],
+                "array-object": [
+                  {
+                    "text": "tessttt",
+                    "image": "mecs-61ea6d78f089a-zoom.jpeg",
+                    "uuid": "6bf5d509-9c9a-48d6-9cb2-439089f1637e"
+                  }
+                ],
+                "hotspot-complex": {
+                  "image": "",
+                  "spots": []
+                },
+                "array": []
+              }
+            }
+          }
+        },
+        {
+          "id": "44ee89ef-66ca-4fc6-a7e1-f0263c3df3b5",
+          "component": "complex-example",
+          "name": "Complex Example",
+          "properties": {
+            "de": {
+              "active": true,
+              "userGroups": {
+                "Alle Benutzer": {
+                  "active": true,
+                  "isTimed": false,
+                  "activeFrom": "2022-01-18T16:03:41.149Z",
+                  "activeTo": "2022-01-18T16:03:41.149Z"
+                }
+              },
+              "content": {
+                "anchorId": "",
+                "layout": "50-50",
+                "imagePosition": "left",
+                "background": {
+                  "image": {
+                    "src": "",
+                    "endless": true
+                  },
+                  "styles": {
+                    " fullWidth": false,
+                    "transparency": false,
+                    "colorHex": {
+                      "hsla": "hsla(229, 0, 0, 1.0)",
+                      "rgba": "rgba(0, 0, 0, 1.0)",
+                      "hex": "#000000"
+                    },
+                    "colorVar": "--cat-wellbeing",
+                    "useColorHex": false
+                  }
+                },
+                "content": {
+                  "headline": {
+                    "text": "",
+                    "styles": {
+                      "type": "h2",
+                      "position": "left",
+                      "colorHex": {
+                        "hsla": "hsla(229, 0, 0, 1.0)",
+                        "rgba": "rgba(0, 0, 0, 1.0)",
+                        "hex": "#000000"
+                      },
+                      "colorVar": "",
+                      "useColorHex": false
+                    }
+                  },
+                  "subHeadline": {
+                    "text": "",
+                    "styles": {
+                      "type": "h4",
+                      "position": "left",
+                      "colorHex": {
+                        "hsla": "hsla(229, 0, 0, 1.0)",
+                        "rgba": "rgba(0, 0, 0, 1.0)",
+                        "hex": "#000000"
+                      },
+                      "colorVar": "--font-text",
+                      "useColorHex": false
+                    }
+                  },
+                  "media": {
+                    "type": "image",
+                    "src": "",
+                    "thumbnail": "",
+                    "link": {
+                      "href": "",
+                      "newTab": false
+                    },
+                    "caption": "",
+                    "styles": {
+                      "parallaxEffect": false
+                    }
+                  },
+                  "paragraph": {
+                    "text": "",
+                    "button": {
+                      "text": "",
+                      "link": {
+                        "href": "",
+                        "newTab": false
+                      },
+                      "styles": {
+                        "position": "left",
+                        "colorHex": "",
+                        "colorVar": "--neutral-10",
+                        "useColorHex": false,
+                        "colorBgHex": {
+                          "hsla": "hsla(229, 0, 0, 1.0)",
+                          "rgba": "rgba(0, 0, 0, 1.0)",
+                          "hex": "#000000"
+                        },
+                        "colorBgVar": "--button-primary",
+                        "size": "large",
+                        "useBgColorHex": false
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "en": {
+              "active": true,
+              "userGroups": {
+                "Alle Benutzer": {
+                  "active": true,
+                  "isTimed": false,
+                  "activeFrom": "2022-01-18T16:03:41.149Z",
+                  "activeTo": "2022-01-18T16:03:41.149Z"
+                }
+              },
+              "content": {
+                "anchorId": "",
+                "layout": "50-50",
+                "imagePosition": "left",
+                "background": {
+                  "image": {
+                    "src": "",
+                    "endless": true
+                  },
+                  "styles": {
+                    " fullWidth": false,
+                    "transparency": false,
+                    "colorHex": {
+                      "hsla": "hsla(229, 0, 0, 1.0)",
+                      "rgba": "rgba(0, 0, 0, 1.0)",
+                      "hex": "#000000"
+                    },
+                    "colorVar": "--cat-wellbeing",
+                    "useColorHex": false
+                  }
+                },
+                "content": {
+                  "headline": {
+                    "text": "",
+                    "styles": {
+                      "type": "h2",
+                      "position": "left",
+                      "colorHex": {
+                        "hsla": "hsla(229, 0, 0, 1.0)",
+                        "rgba": "rgba(0, 0, 0, 1.0)",
+                        "hex": "#000000"
+                      },
+                      "colorVar": "",
+                      "useColorHex": false
+                    }
+                  },
+                  "subHeadline": {
+                    "text": "",
+                    "styles": {
+                      "type": "h4",
+                      "position": "left",
+                      "colorHex": {
+                        "hsla": "hsla(229, 0, 0, 1.0)",
+                        "rgba": "rgba(0, 0, 0, 1.0)",
+                        "hex": "#000000"
+                      },
+                      "colorVar": "--font-text",
+                      "useColorHex": false
+                    }
+                  },
+                  "media": {
+                    "type": "image",
+                    "src": "",
+                    "thumbnail": "",
+                    "link": {
+                      "href": "",
+                      "newTab": false
+                    },
+                    "caption": "",
+                    "styles": {
+                      "parallaxEffect": false
+                    }
+                  },
+                  "paragraph": {
+                    "text": "",
+                    "button": {
+                      "text": "",
+                      "link": {
+                        "href": "",
+                        "newTab": false
+                      },
+                      "styles": {
+                        "position": "left",
+                        "colorHex": "",
+                        "colorVar": "--neutral-10",
+                        "useColorHex": false,
+                        "colorBgHex": {
+                          "hsla": "hsla(229, 0, 0, 1.0)",
+                          "rgba": "rgba(0, 0, 0, 1.0)",
+                          "hex": "#000000"
+                        },
+                        "colorBgVar": "--button-primary",
+                        "size": "large",
+                        "useBgColorHex": false
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "d440f19e-cfff-4c63-841b-2473b37c3b8f",
+          "component": "discovery-image",
+          "name": "Discovery Image",
+          "properties": {
+            "de": {
+              "active": true,
+              "userGroups": {
+                "Alle Benutzer": {
+                  "active": true,
+                  "isTimed": false,
+                  "activeFrom": "2022-01-30T17:11:03.166Z",
+                  "activeTo": "2022-01-30T17:11:03.166Z"
+                }
+              },
+              "content": {
+                "discoveryImage": {
+                  "image": "mecs-61f7e89c1cc46-kite.png",
+                  "spots": [
+                    {
+                      "hotspot-select": "qwer",
+                      "product": {
+                        "items": [
+                          {
+                            "id": "b745195d6dece23ad92c0a6908cbdc74",
+                            "title": "Helm AHM 5000",
+                            "subtitle": "1505"
+                          },
+                          {
+                            "id": "577ec4214a3c8468008224d2fd314d22",
+                            "title": "Sonnenbrille TRIGGERNAUT AGENT ORANGE",
+                            "subtitle": "3501"
+                          }
+                        ],
+                        "resolveDocuments": true
+                      },
+                      "left": 60,
+                      "top": 29
+                    }
+                  ]
+                }
+              }
+            },
+            "en": {
+              "active": true,
+              "userGroups": {
+                "Alle Benutzer": {
+                  "active": true,
+                  "isTimed": false,
+                  "activeFrom": "2022-01-30T17:11:03.166Z",
+                  "activeTo": "2022-01-30T17:11:03.166Z"
+                }
+              },
+              "content": {
+                "discoveryImage": {
+                  "image": "",
+                  "spots": []
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "297464bd-299b-4842-9133-f5f5f349c867",
+          "component": "all-document-types",
+          "name": "All-Document-Types",
+          "properties": {
+            "de": {
+              "active": true,
+              "userGroups": {
+                "Alle Benutzer": {
+                  "active": true,
+                  "isTimed": false,
+                  "activeFrom": "2022-01-30T17:22:08.817Z",
+                  "activeTo": "2022-01-30T17:22:08.817Z"
+                }
+              },
+              "content": {
+                "products": {
+                  "items": [],
+                  "resolveDocuments": false
+                },
+                "searchable-links": {
+                  "items": [],
+                  "resolveDocuments": false
+                },
+                "serch-redirects": {
+                  "items": [],
+                  "resolveDocuments": false
+                },
+                "landing-pages": {
+                  "items": [],
+                  "resolveDocuments": false
+                },
+                "categories": {
+                  "items": [],
+                  "resolveDocuments": false
+                },
+                "manufacturer": {
+                  "items": [],
+                  "resolveDocuments": false
+                }
+              }
+            },
+            "en": {
+              "active": true,
+              "userGroups": {
+                "Alle Benutzer": {
+                  "active": true,
+                  "isTimed": false,
+                  "activeFrom": "2022-01-30T17:22:08.817Z",
+                  "activeTo": "2022-01-30T17:22:08.817Z"
+                }
+              },
+              "content": {
+                "products": {
+                  "items": [],
+                  "resolveDocuments": false
+                },
+                "searchable-links": {
+                  "items": [],
+                  "resolveDocuments": false
+                },
+                "serch-redirects": {
+                  "items": [],
+                  "resolveDocuments": false
+                },
+                "landing-pages": {
+                  "items": [],
+                  "resolveDocuments": false
+                },
+                "categories": {
+                  "items": [],
+                  "resolveDocuments": false
+                },
+                "manufacturer": {
+                  "items": [],
+                  "resolveDocuments": false
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "revisionParent": null
+}
